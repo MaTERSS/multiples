@@ -15,8 +15,8 @@ namespace CSharplight
         {            
             int numberFirst = 10;
             int numberLast = 25;    
-            Random rand = new Random();
-            int randomNumber = rand.Next(numberFirst, numberLast);
+            Random random = new Random();
+            int randomNumber = random.Next(numberFirst, numberLast);
             int firstNumber = 50;
             int lastNumber = 150; 
             int numberOfMultiples = 0;
