@@ -5,7 +5,6 @@
 Число N всего одно, его надо получить в нужном диапазоне. Хоть с помощью Random, хоть ввод пользователя.
  */
 using System;
-using System.Diagnostics.Metrics;
 using System.Text;
 
 namespace CSharplight
