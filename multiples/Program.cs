@@ -16,7 +16,7 @@ namespace CSharplight
             int numberFirst = 10;
             int numberLast = 25;    
             Random random = new Random();
-            int randomNumber = random.Next(numberFirst, numberLast);
+            int randomNumber = random.Next(numberFirst, numberLast + 1);
             int firstNumber = 50;
             int lastNumber = 150; 
             int numberOfMultiples = 0;
@@ -29,7 +29,7 @@ namespace CSharplight
                 }
             }           
 
-            Console.WriteLine($"Количество чисел от 50 до 150, кратных {randomNumber}: {numberOfMultiples}");
+            Console.WriteLine($"Количество чисел от {firstNumber} до {lastNumber}, кратных {randomNumber}: {numberOfMultiples}");
         }        
     }
 }
