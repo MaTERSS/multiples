@@ -13,10 +13,10 @@ namespace CSharplight
     {
         static void Main(string[] args)
         {            
-            int numberFirst = 10;
-            int numberLast = 25;    
+            int firstNumberForTheNumberN = 10;
+            int lastNumberForTheNumberN = 25;    
             Random random = new Random();
-            int randomNumber = random.Next(numberFirst, numberLast + 1);
+            int randomNumber = random.Next(firstNumberForTheNumberN, lastNumberForTheNumberN + 1);
             int firstNumber = 50;
             int lastNumber = 150; 
             int numberOfMultiples = 0;
